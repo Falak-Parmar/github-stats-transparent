@@ -95,3 +95,14 @@ After wasting a day playing with different color values finally settled on one. 
   [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
 - Makes use of [GitHub Octicons](https://primer.style/octicons/) to precisely
   match the GitHub UI
+
+## Trust & Transparency notes
+
+- **Source & Attribution**: This repository is a fork of the open-source [rahul-jha98/github-stats-transparent](https://github.com/rahul-jha98/github-stats-transparent), which builds upon [jstrieb/github-stats](https://github.com/jstrieb/github-stats). The core stats-collection logic and SVG formatting scripts belong entirely to the upstream authors.
+- **Motive**: Forked to automate the compilation of transparent, theme-adaptive profile badges (overview and language distribution stats) for display on my GitHub profile page.
+- **Modifications**: Set up repository configuration settings, access token secrets, and workflow scheduling configurations.
+- **Limitations**:
+  - Requires a Personal Access Token with private repository read privileges. If an exception occurs, repository names might be printed in the public Action workflow logs.
+  - Metrics are updated periodically on a schedule (e.g., hourly) rather than dynamic real-time page loads.
+- **Tooling & AI Usage**: Configured and set up manually as an upstream template project, without requiring custom code modification.
+
